@@ -1,0 +1,15 @@
+<h1 class="display-2 p-3">Lista de cursos del estudiante</h1>
+<tbody>
+  <tr **ngFor="let c of courses">
+    <td>
+      <dd>{{ c.name }}</dd>
+    </td>
+    <td>
+      <dd>{{ c.professor }}</dd>
+    </td>
+    <td>
+      <dd>{{ c.credits }}</dd>
+    </td>
+  </tr>
+</tbody>
+<app-course></app-course>
